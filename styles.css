@@ -105,7 +105,43 @@ main {
 /* End Content-1 */
 
 /* Content-2 */
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
 
+.content-2-title {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.cards {
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+}
+
+.container-card {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+    color: #525252;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
 /* End Content-2 */
 /* End Main */
 
