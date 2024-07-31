@@ -143,6 +143,33 @@ main {
     height: 150px;
 }
 /* End Content-2 */
+
+/* Content-3 */
+.content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #c0c0c0;
+
+}
+
+.container-quote {
+    width: 44vw;
+}
+
+.quote {
+    color: #222222;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 900;
+    text-align: right;
+    padding-right: 40px;
+}
+/* End Content-3 */
 /* End Main */
 
 
