@@ -7,6 +7,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -18,10 +19,9 @@ body {
 header {
     display: flex;
     justify-content: center;
-    background-color: #002966;
+    background-color: #E3B261;
     color: white;
     padding: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .logo {
@@ -47,9 +47,66 @@ header {
 }
 /* End Header */
 
-
 /* Main */
+main {
+    display: flex;
+    flex-direction: column;
+}
+/* Content-1 */
+.content-1 {
+    display: flex;
+    background-color: #E3B261;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
 
+.container-content-1 {
+    width: 60vw;
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content-1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 400px;
+    align-items: flex-start;
+}
+
+.content-1-title {
+    font-weight: 900;
+    font-size: 34px;
+}
+
+.content-1-text {
+   font-weight: 400;
+   color: #f7f7f7;
+}
+
+.content-1-button {
+    padding: 4px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.content-1-image {
+    border-radius: 10px;
+    max-width: 450px;   
+    min-width: 450px;
+}
+/* End Content-1 */
+
+/* Content-2 */
+
+/* End Content-2 */
 /* End Main */
 
 
