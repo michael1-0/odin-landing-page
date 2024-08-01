@@ -216,5 +216,11 @@ main {
 
 
 /* Footer */
-
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    background-color: #E3B261;
+}
 /* End Footer */
