@@ -1,1 +1,2 @@
 # odin-landing-page
+This project is a landing page recreation of The Odin Project, with the goal of completing the Landing Page assignment. This project is aimed to practice the use of margin, padding and flexbox within css.
